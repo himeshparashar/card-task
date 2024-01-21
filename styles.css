@@ -1,0 +1,74 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Light Gray */
+}
+
+.card {
+  background-color: #e0e0e0; /* Background color for neumorphism effect */
+  box-shadow: 10px 10px 20px #b3b3b3, -10px -10px 20px #ffffff; /* Neumorphism shadows */
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 400px;
+  padding: 8px;
+  /* text-align: center; */
+}
+
+.content {
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.tags {
+  margin: 10px 0;
+}
+
+.tag {
+  color: #8b8a8a;
+  font-weight: 550;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #b3b3b3; /* Border color for tags */
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #333; /* Dark Gray */
+}
+
+p {
+  color: #808080; /* Medium Gray */
+}
+
+.read-more {
+  font-weight: 600;
+  background-color: #aed5ef; /* Blue */
+  color: #1a7fc2; /* White */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button {
+  text-align: center;
+}
+
+.read-more:hover {
+  color: #aed5ef; /* Blue */
+  background-color: #1a7fc2; /* White */
+}
